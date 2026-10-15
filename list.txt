@@ -60,9 +60,9 @@
 57.144.134.141 rupload.meta.ai                       # 上传
 57.144.134.128 cdn.meta.ai                           # 静态资源
 57.144.134.141 ai.meta.com                           # 产品和模型页面
-57.144.202.141 graph.facebook.com                    # Graph API
+57.144.134.141 graph.facebook.com                    # Graph API
 57.144.134.128 lookaside.fbsbx.com                   # 图片预览
-57.144.202.141 llama.com                             # Llama 站点
+57.144.134.141 llama.com                             # Llama 站点
 57.144.134.141 llama.meta.com                        # Llama 站点
 
 # Anthropic / Claude
@@ -77,13 +77,13 @@
 
 # Google Gemini
 142.251.157.2 gemini.google.com                      # 网页版
-142.251.215.206 aistudio.google.com                  # AI Studio
+192.178.164.139 aistudio.google.com                  # AI Studio
 192.178.164.138 makersuite.google.com                # 旧版 AI Studio
 172.217.114.4 generativelanguage.googleapis.com      # Gemini API
-142.250.141.138 ai.google.dev                        # 开发者文档
+172.217.75.100 ai.google.dev                         # 开发者文档
 
 # GitHub Copilot
-140.82.113.22 api.githubcopilot.com                  # 补全接口
+140.82.112.22 api.githubcopilot.com                  # 补全接口
 140.82.114.18 githubcopilot.com                      # Copilot 服务
 104.18.23.222 copilot.microsoft.com                  # Microsoft Copilot 网页
 138.91.182.224 copilot-proxy.githubusercontent.com   # Copilot 代理
