@@ -83,7 +83,7 @@
 192.178.164.102 ai.google.dev                        # 开发者文档
 
 # GitHub Copilot
-140.82.113.21 api.githubcopilot.com                  # 补全接口
+140.82.114.21 api.githubcopilot.com                  # 补全接口
 140.82.114.18 githubcopilot.com                      # Copilot 服务
 104.18.23.222 copilot.microsoft.com                  # Microsoft Copilot 网页
 138.91.182.224 copilot-proxy.githubusercontent.com   # Copilot 代理
