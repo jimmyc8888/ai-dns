@@ -12,7 +12,7 @@
 104.18.18.80 assets.x.ai                             # 静态资源
 104.18.19.80 data.x.ai                               # 数据接口
 104.18.18.80 deferred-chat.x.ai                      # 延迟对话
-162.159.140.229 grok.x.com                           # X 里的 Grok
+172.66.0.227 grok.x.com                              # X 里的 Grok
 104.18.18.80 status.x.ai                             # 状态页
 104.18.27.175 trust.x.ai                             # 信任中心
 
