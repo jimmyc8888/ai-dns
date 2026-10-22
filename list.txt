@@ -78,9 +78,9 @@
 # Google Gemini
 142.251.157.2 gemini.google.com                      # 网页版
 192.178.164.102 aistudio.google.com                  # AI Studio
-172.217.75.113 makersuite.google.com                 # 旧版 AI Studio
+192.178.164.102 makersuite.google.com                # 旧版 AI Studio
 172.217.114.4 generativelanguage.googleapis.com      # Gemini API
-172.217.75.101 ai.google.dev                         # 开发者文档
+192.178.164.102 ai.google.dev                        # 开发者文档
 
 # GitHub Copilot
 140.82.114.21 api.githubcopilot.com                  # 补全接口
