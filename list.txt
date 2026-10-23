@@ -78,12 +78,12 @@
 # Google Gemini
 142.251.157.2 gemini.google.com                      # 网页版
 192.178.164.101 aistudio.google.com                  # AI Studio
-192.178.164.113 makersuite.google.com                # 旧版 AI Studio
+172.217.75.101 makersuite.google.com                 # 旧版 AI Studio
 172.217.114.4 generativelanguage.googleapis.com      # Gemini API
 172.217.75.113 ai.google.dev                         # 开发者文档
 
 # GitHub Copilot
-140.82.112.21 api.githubcopilot.com                  # 补全接口
+140.82.114.21 api.githubcopilot.com                  # 补全接口
 140.82.114.18 githubcopilot.com                      # Copilot 服务
 104.18.23.222 copilot.microsoft.com                  # Microsoft Copilot 网页
 138.91.182.224 copilot-proxy.githubusercontent.com   # Copilot 代理
