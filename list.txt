@@ -77,7 +77,7 @@
 
 # Google Gemini
 142.251.157.2 gemini.google.com                      # 网页版
-192.178.231.138 aistudio.google.com                  # AI Studio
+192.179.30.139 aistudio.google.com                   # AI Studio
 192.179.30.101 makersuite.google.com                 # 旧版 AI Studio
 172.217.114.4 generativelanguage.googleapis.com      # Gemini API
 192.178.164.102 ai.google.dev                        # 开发者文档
