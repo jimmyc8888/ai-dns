@@ -12,7 +12,7 @@
 104.18.18.80 assets.x.ai                             # 静态资源
 104.18.19.80 data.x.ai                               # 数据接口
 104.18.18.80 deferred-chat.x.ai                      # 延迟对话
-172.66.0.227 grok.x.com                              # X 里的 Grok
+162.159.140.229 grok.x.com                           # X 里的 Grok
 104.18.18.80 status.x.ai                             # 状态页
 104.18.27.175 trust.x.ai                             # 信任中心
 
@@ -29,7 +29,7 @@
 104.18.41.158 cdn.oaistatic.com                      # 网页静态资源
 172.64.146.98 persistent.oaistatic.com               # 持久静态资源
 172.64.144.52 files.oaiusercontent.com               # 上传、下载附件
-150.171.109.145 cdn.openai.com                       # 控制台静态资源
+150.171.109.148 cdn.openai.com                       # 控制台静态资源
 104.18.32.87 files.openai.com                        # 文件接口
 172.64.148.218 sentinel.openai.com                   # 风控校验，拦了可能登不上
 104.18.39.85 ios.chat.openai.com                     # iOS 客户端
@@ -48,22 +48,22 @@
 104.18.41.158 sora-cdn.oaistatic.com                 # Sora 静态资源
 
 # Meta AI
-57.144.4.141 auth.meta.ai                            # 开发者登录
-57.144.4.141 api.meta.ai                             # Model API
-57.144.4.141 dev.meta.ai                             # 开发者文档和控制台
-57.144.4.128 lookaside.facebook.com                  # 图片预览
-57.144.4.141 meta.ai                                 # 网页版助手
-57.144.4.141 www.meta.ai                             # 网页版助手
-57.144.4.141 graph.meta.ai                           # 网页对话 GraphQL
-57.144.4.145 gateway.meta.ai                         # 网关
-57.144.4.141 edge-chat.meta.ai                       # 对话边缘节点
-57.144.4.141 rupload.meta.ai                         # 上传
+57.144.134.141 auth.meta.ai                          # 开发者登录
+57.144.134.141 api.meta.ai                           # Model API
+57.144.134.141 dev.meta.ai                           # 开发者文档和控制台
+57.144.134.128 lookaside.facebook.com                # 图片预览
+57.144.134.141 meta.ai                               # 网页版助手
+57.144.134.141 www.meta.ai                           # 网页版助手
+57.144.134.141 graph.meta.ai                         # 网页对话 GraphQL
+57.144.134.145 gateway.meta.ai                       # 网关
+57.144.134.141 edge-chat.meta.ai                     # 对话边缘节点
+57.144.134.141 rupload.meta.ai                       # 上传
 57.144.134.128 cdn.meta.ai                           # 静态资源
-57.144.218.141 ai.meta.com                           # 产品和模型页面
-57.144.218.141 graph.facebook.com                    # Graph API
-57.144.218.128 lookaside.fbsbx.com                   # 图片预览
+57.144.134.141 ai.meta.com                           # 产品和模型页面
+57.144.134.141 graph.facebook.com                    # Graph API
+57.144.134.128 lookaside.fbsbx.com                   # 图片预览
 57.144.134.141 llama.com                             # Llama 站点
-57.144.218.141 llama.meta.com                        # Llama 站点
+57.144.134.141 llama.meta.com                        # Llama 站点
 
 # Anthropic / Claude
 160.79.104.10 claude.ai                              # 网页版
@@ -77,13 +77,13 @@
 
 # Google Gemini
 142.251.157.2 gemini.google.com                      # 网页版
-192.179.30.100 aistudio.google.com                   # AI Studio
-192.178.164.100 makersuite.google.com                # 旧版 AI Studio
+192.178.231.101 aistudio.google.com                  # AI Studio
+192.179.30.138 makersuite.google.com                 # 旧版 AI Studio
 172.217.114.4 generativelanguage.googleapis.com      # Gemini API
-192.178.164.102 ai.google.dev                        # 开发者文档
+192.178.231.113 ai.google.dev                        # 开发者文档
 
 # GitHub Copilot
-140.82.112.22 api.githubcopilot.com                  # 补全接口
+140.82.114.22 api.githubcopilot.com                  # 补全接口
 140.82.114.18 githubcopilot.com                      # Copilot 服务
 104.18.23.222 copilot.microsoft.com                  # Microsoft Copilot 网页
 138.91.182.224 copilot-proxy.githubusercontent.com   # Copilot 代理
