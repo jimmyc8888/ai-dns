@@ -12,7 +12,7 @@
 104.18.18.80 assets.x.ai                             # 静态资源
 104.18.19.80 data.x.ai                               # 数据接口
 104.18.18.80 deferred-chat.x.ai                      # 延迟对话
-162.159.140.229 grok.x.com                           # X 里的 Grok
+172.66.0.227 grok.x.com                              # X 里的 Grok
 104.18.18.80 status.x.ai                             # 状态页
 104.18.27.175 trust.x.ai                             # 信任中心
 
@@ -78,12 +78,12 @@
 # Google Gemini
 142.251.157.2 gemini.google.com                      # 网页版
 192.178.231.101 aistudio.google.com                  # AI Studio
-192.179.30.138 makersuite.google.com                 # 旧版 AI Studio
+172.217.75.139 makersuite.google.com                 # 旧版 AI Studio
 172.217.114.4 generativelanguage.googleapis.com      # Gemini API
 172.217.75.138 ai.google.dev                         # 开发者文档
 
 # GitHub Copilot
-140.82.112.21 api.githubcopilot.com                  # 补全接口
+140.82.113.21 api.githubcopilot.com                  # 补全接口
 140.82.114.18 githubcopilot.com                      # Copilot 服务
 104.18.23.222 copilot.microsoft.com                  # Microsoft Copilot 网页
 138.91.182.224 copilot-proxy.githubusercontent.com   # Copilot 代理
