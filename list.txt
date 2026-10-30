@@ -29,7 +29,7 @@
 104.18.41.158 cdn.oaistatic.com                      # 网页静态资源
 172.64.146.98 persistent.oaistatic.com               # 持久静态资源
 172.64.144.52 files.oaiusercontent.com               # 上传、下载附件
-150.171.109.147 cdn.openai.com                       # 控制台静态资源
+150.171.109.148 cdn.openai.com                       # 控制台静态资源
 104.18.32.87 files.openai.com                        # 文件接口
 172.64.148.218 sentinel.openai.com                   # 风控校验，拦了可能登不上
 104.18.39.85 ios.chat.openai.com                     # iOS 客户端
@@ -80,10 +80,10 @@
 192.178.164.101 aistudio.google.com                  # AI Studio
 192.178.164.102 makersuite.google.com                # 旧版 AI Studio
 172.217.114.4 generativelanguage.googleapis.com      # Gemini API
-192.178.231.100 ai.google.dev                        # 开发者文档
+192.178.164.101 ai.google.dev                        # 开发者文档
 
 # GitHub Copilot
-140.82.114.21 api.githubcopilot.com                  # 补全接口
+140.82.113.21 api.githubcopilot.com                  # 补全接口
 140.82.114.18 githubcopilot.com                      # Copilot 服务
 104.18.23.222 copilot.microsoft.com                  # Microsoft Copilot 网页
 138.91.182.224 copilot-proxy.githubusercontent.com   # Copilot 代理
