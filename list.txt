@@ -48,21 +48,21 @@
 104.18.41.158 sora-cdn.oaistatic.com                 # Sora 静态资源
 
 # Meta AI
-57.144.202.141 auth.meta.ai                          # 开发者登录
-157.240.11.17 api.meta.ai                            # Model API
+57.144.4.141 auth.meta.ai                            # 开发者登录
+57.144.4.141 api.meta.ai                             # Model API
 57.144.4.141 dev.meta.ai                             # 开发者文档和控制台
-57.144.4.128 lookaside.facebook.com                  # 图片预览
-157.240.11.17 meta.ai                                # 网页版助手
+157.240.11.22 lookaside.facebook.com                 # 图片预览
+57.144.202.141 meta.ai                               # 网页版助手
 57.144.4.141 www.meta.ai                             # 网页版助手
 57.144.4.141 graph.meta.ai                           # 网页对话 GraphQL
-57.144.4.145 gateway.meta.ai                         # 网关
-157.240.11.17 edge-chat.meta.ai                      # 对话边缘节点
-57.144.134.141 rupload.meta.ai                       # 上传
-57.144.134.128 cdn.meta.ai                           # 静态资源
-57.144.202.141 ai.meta.com                           # 产品和模型页面
-57.144.4.141 graph.facebook.com                      # Graph API
+157.240.11.1 gateway.meta.ai                         # 网关
+57.144.202.141 edge-chat.meta.ai                     # 对话边缘节点
+157.240.11.17 rupload.meta.ai                        # 上传
+157.240.11.22 cdn.meta.ai                            # 静态资源
+57.144.4.141 ai.meta.com                             # 产品和模型页面
+157.240.11.17 graph.facebook.com                     # Graph API
 57.144.4.128 lookaside.fbsbx.com                     # 图片预览
-57.144.4.141 llama.com                               # Llama 站点
+57.144.134.141 llama.com                             # Llama 站点
 57.144.134.141 llama.meta.com                        # Llama 站点
 
 # Anthropic / Claude
@@ -77,10 +77,10 @@
 
 # Google Gemini
 142.251.157.2 gemini.google.com                      # 网页版
-142.251.210.142 aistudio.google.com                  # AI Studio
-172.217.75.100 makersuite.google.com                 # 旧版 AI Studio
+142.251.35.78 aistudio.google.com                    # AI Studio
+192.179.30.100 makersuite.google.com                 # 旧版 AI Studio
 172.217.114.4 generativelanguage.googleapis.com      # Gemini API
-142.251.210.142 ai.google.dev                        # 开发者文档
+192.178.164.139 ai.google.dev                        # 开发者文档
 
 # GitHub Copilot
 140.82.114.21 api.githubcopilot.com                  # 补全接口
