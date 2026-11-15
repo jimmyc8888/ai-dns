@@ -1,110 +1,110 @@
 # Grok / xAI
-104.18.29.234 cli-chat-proxy.grok.com                # CLI 推理代理，订阅登录走这里
-104.18.19.80 auth.x.ai                               # 登录、OAuth
-104.18.18.80 api.x.ai                                # API Key 调用
-104.18.28.234 code.grok.com                          # 远程会话同步、分享
-104.18.28.234 assets.grok.com                        # 头像和界面图片
-104.18.28.234 grok.com                               # 网页版
-104.18.19.80 accounts.x.ai                           # 账号、绑定登录方式
-104.18.18.80 console.x.ai                            # API 控制台、密钥和账单
-104.18.18.80 x.ai                                    # 官网，以及 CLI 安装和更新
-104.18.18.80 docs.x.ai                               # 文档
-104.18.18.80 assets.x.ai                             # 静态资源
-104.18.19.80 data.x.ai                               # 数据接口
-104.18.18.80 deferred-chat.x.ai                      # 延迟对话
-172.66.0.227 grok.x.com                              # X 里的 Grok
-104.18.18.80 status.x.ai                             # 状态页
-104.18.27.175 trust.x.ai                             # 信任中心
+104.18.28.234 cli-chat-proxy.grok.com               # CLI 推理代理，订阅登录走这里
+104.18.18.80 auth.x.ai                              # 登录、OAuth
+104.18.18.80 api.x.ai                               # API Key 调用
+104.18.28.234 code.grok.com                         # 远程会话同步、分享
+104.18.29.234 assets.grok.com                       # 头像和界面图片
+104.18.28.234 grok.com                              # 网页版
+104.18.19.80 accounts.x.ai                          # 账号、绑定登录方式
+104.18.19.80 console.x.ai                           # API 控制台、密钥和账单
+104.18.19.80 x.ai                                   # 官网，以及 CLI 安装和更新
+104.18.18.80 docs.x.ai                              # 文档
+104.18.19.80 assets.x.ai                            # 静态资源
+104.18.19.80 data.x.ai                              # 数据接口
+104.18.18.80 deferred-chat.x.ai                     # 延迟对话
+162.159.140.229 grok.x.com                          # X 里的 Grok
+104.18.18.80 status.x.ai                            # 状态页
+104.18.26.175 trust.x.ai                            # 信任中心
 
 # OpenAI / ChatGPT / Codex
-172.64.154.211 platform.openai.com                   # API 控制台
-104.18.32.47 ab.chatgpt.com                          # 实验分流
-172.64.155.209 chatgpt.com                           # 网页版；Codex 接口也在这台主机
-172.64.150.28 chat.openai.com                        # 旧版对话入口，会跳到 chatgpt.com
-104.18.32.47 codex-cloud-backend.chatgpt.com         # Codex 云端任务后端
-172.64.155.209 codex-cloud-environments.chatgpt.com  # Codex 云端环境
-162.159.140.245 api.openai.com                       # Platform API
-104.18.41.241 auth.openai.com                        # ChatGPT / Codex 登录和刷新 token
-172.64.148.235 ws.chatgpt.com                        # 网页对话 WebSocket
-104.18.41.158 cdn.oaistatic.com                      # 网页静态资源
-172.64.146.98 persistent.oaistatic.com               # 持久静态资源
-172.64.144.52 files.oaiusercontent.com               # 上传、下载附件
-150.171.109.148 cdn.openai.com                       # 控制台静态资源
-104.18.32.87 files.openai.com                        # 文件接口
-172.64.148.218 sentinel.openai.com                   # 风控校验，拦了可能登不上
-104.18.39.85 ios.chat.openai.com                     # iOS 客户端
-104.18.32.42 android.chat.openai.com                 # Android 客户端
-104.18.33.45 tcr9i.chat.openai.com                   # 人机验证
-172.65.90.20 auth0.openai.com                        # 旧登录域名
-104.18.3.136 cdn.openaimerge.com                     # 合并相关静态资源
-104.18.35.233 setup.auth.openai.com                  # 登录初始化
-104.18.33.45 openai.com                              # 官网
-104.18.39.16 sora.com                                # Sora 网页
-172.64.148.240 www.sora.com                          # Sora 网页
-104.18.38.74 sora.chatgpt.com                        # Sora
-104.18.37.215 operator.chatgpt.com                   # Operator
-104.18.36.169 realtime.chatgpt.com                   # 实时接口
-104.18.32.47 webrtc.chatgpt.com                      # 语音 WebRTC 信令
-104.18.41.158 sora-cdn.oaistatic.com                 # Sora 静态资源
+104.18.33.45 platform.openai.com                    # API 控制台
+172.64.155.209 ab.chatgpt.com                       # 实验分流
+172.64.155.209 chatgpt.com                          # 网页版；Codex 接口也在这台主机
+104.18.37.228 chat.openai.com                       # 旧版对话入口，会跳到 chatgpt.com
+104.18.32.47 codex-cloud-backend.chatgpt.com        # Codex 云端任务后端
+104.18.32.47 codex-cloud-environments.chatgpt.com   # Codex 云端环境
+172.66.0.243 api.openai.com                         # Platform API
+104.18.41.241 auth.openai.com                       # ChatGPT / Codex 登录和刷新 token
+104.18.39.21 ws.chatgpt.com                         # 网页对话 WebSocket
+172.64.146.98 cdn.oaistatic.com                     # 网页静态资源
+172.64.146.98 persistent.oaistatic.com              # 持久静态资源
+104.18.43.204 files.oaiusercontent.com              # 上传、下载附件
+150.171.109.148 cdn.openai.com                      # 控制台静态资源
+104.18.32.87 files.openai.com                       # 文件接口
+172.64.148.218 sentinel.openai.com                  # 风控校验，拦了可能登不上
+172.64.148.171 ios.chat.openai.com                  # iOS 客户端
+104.18.32.42 android.chat.openai.com                # Android 客户端
+172.64.154.211 tcr9i.chat.openai.com                # 人机验证
+172.65.90.23 auth0.openai.com                       # 旧登录域名
+104.18.3.136 cdn.openaimerge.com                    # 合并相关静态资源
+104.18.35.233 setup.auth.openai.com                 # 登录初始化
+104.18.33.45 openai.com                             # 官网
+104.18.39.16 sora.com                               # Sora 网页
+172.64.148.240 www.sora.com                         # Sora 网页
+104.18.38.74 sora.chatgpt.com                       # Sora
+172.64.150.41 operator.chatgpt.com                  # Operator
+172.64.151.87 realtime.chatgpt.com                  # 实时接口
+104.18.32.47 webrtc.chatgpt.com                     # 语音 WebRTC 信令
+104.18.41.158 sora-cdn.oaistatic.com                # Sora 静态资源
 
 # Meta AI
-57.144.134.141 auth.meta.ai                          # 开发者登录
-57.144.134.141 api.meta.ai                           # Model API
-57.144.134.141 dev.meta.ai                           # 开发者文档和控制台
-57.144.134.128 lookaside.facebook.com                # 图片预览
-57.144.134.141 meta.ai                               # 网页版助手
-57.144.134.141 www.meta.ai                           # 网页版助手
-57.144.134.141 graph.meta.ai                         # 网页对话 GraphQL
-57.144.134.145 gateway.meta.ai                       # 网关
-57.144.134.141 edge-chat.meta.ai                     # 对话边缘节点
-57.144.134.141 rupload.meta.ai                       # 上传
-57.144.134.128 cdn.meta.ai                           # 静态资源
-57.144.134.141 ai.meta.com                           # 产品和模型页面
-57.144.134.141 graph.facebook.com                    # Graph API
-57.144.134.128 lookaside.fbsbx.com                   # 图片预览
-57.144.134.141 llama.com                             # Llama 站点
-57.144.134.141 llama.meta.com                        # Llama 站点
+57.144.134.141 auth.meta.ai                         # 开发者登录
+57.144.134.141 api.meta.ai                          # Model API
+57.144.134.141 dev.meta.ai                          # 开发者文档和控制台
+57.144.134.128 lookaside.facebook.com               # 图片预览
+57.144.134.141 meta.ai                              # 网页版助手
+57.144.134.141 www.meta.ai                          # 网页版助手
+57.144.134.141 graph.meta.ai                        # 网页对话 GraphQL
+57.144.134.145 gateway.meta.ai                      # 网关
+57.144.134.141 edge-chat.meta.ai                    # 对话边缘节点
+57.144.134.141 rupload.meta.ai                      # 上传
+57.144.134.128 cdn.meta.ai                          # 静态资源
+57.144.134.141 ai.meta.com                          # 产品和模型页面
+57.144.134.141 graph.facebook.com                   # Graph API
+57.144.134.128 lookaside.fbsbx.com                  # 图片预览
+57.144.134.141 llama.com                            # Llama 站点
+57.144.134.141 llama.meta.com                       # Llama 站点
 
 # Anthropic / Claude
-160.79.104.10 claude.ai                              # 网页版
-160.79.104.10 claude.com                             # 文档和官网
-160.79.104.10 api.anthropic.com                      # API
-160.79.104.10 platform.claude.com                    # 登录和平台
-160.79.104.10 console.anthropic.com                  # 控制台
-160.79.104.10 code.claude.com                        # Claude Code
-35.190.46.17 downloads.claude.ai                     # 客户端下载和更新
-160.79.104.10 claudeusercontent.com                  # 上传的文件
+160.79.104.10 claude.ai                             # 网页版
+160.79.104.10 claude.com                            # 文档和官网
+160.79.104.10 api.anthropic.com                     # API
+160.79.104.10 platform.claude.com                   # 登录和平台
+160.79.104.10 console.anthropic.com                 # 控制台
+160.79.104.10 code.claude.com                       # Claude Code
+35.190.46.17 downloads.claude.ai                    # 客户端下载和更新
+160.79.104.10 claudeusercontent.com                 # 上传的文件
 
 # Google Gemini
-142.251.157.2 gemini.google.com                      # 网页版
-192.178.231.102 aistudio.google.com                  # AI Studio
-192.178.164.101 makersuite.google.com                # 旧版 AI Studio
-172.217.114.4 generativelanguage.googleapis.com      # Gemini API
-192.178.164.139 ai.google.dev                        # 开发者文档
+142.251.150.2 gemini.google.com                     # 网页版
+192.178.164.113 aistudio.google.com                 # AI Studio
+172.217.75.101 makersuite.google.com                # 旧版 AI Studio
+172.217.112.4 generativelanguage.googleapis.com     # Gemini API
+172.217.75.100 ai.google.dev                        # 开发者文档
 
 # GitHub Copilot
-140.82.113.22 api.githubcopilot.com                  # 补全接口
-140.82.114.18 githubcopilot.com                      # Copilot 服务
-104.18.23.222 copilot.microsoft.com                  # Microsoft Copilot 网页
-138.91.182.224 copilot-proxy.githubusercontent.com   # Copilot 代理
+140.82.114.22 api.githubcopilot.com                 # 补全接口
+140.82.113.18 githubcopilot.com                     # Copilot 服务
+104.18.23.222 copilot.microsoft.com                 # Microsoft Copilot 网页
+138.91.182.224 copilot-proxy.githubusercontent.com  # Copilot 代理
 
 # Perplexity
-104.18.27.48 www.perplexity.ai                       # 网页版
-104.18.27.48 api.perplexity.ai                       # API
-104.18.26.226 www.perplexity.com                     # 网页版
+104.18.26.48 www.perplexity.ai                      # 网页版
+104.18.26.48 api.perplexity.ai                      # API
+104.18.26.226 www.perplexity.com                    # 网页版
 
 # Mistral
-162.159.142.207 api.mistral.ai                       # API
-141.101.90.106 console.mistral.ai                    # 控制台
-141.101.90.106 chat.mistral.ai                       # 网页对话
+162.159.142.207 api.mistral.ai                      # API
+141.101.90.106 console.mistral.ai                   # 控制台
+141.101.90.107 chat.mistral.ai                      # 网页对话
 
 # DeepSeek
-3.173.21.63 api.deepseek.com                         # API
-3.173.21.63 chat.deepseek.com                        # 网页版
+3.173.21.63 api.deepseek.com                        # API
+3.173.21.63 chat.deepseek.com                       # 网页版
 
 # Groq
-172.64.149.20 api.groq.com                           # API
-172.64.149.20 console.groq.com                       # 控制台
+172.64.149.20 api.groq.com                          # API
+172.64.149.20 console.groq.com                      # 控制台
 
 # OpenRouter
-104.18.3.115 openrouter.ai                           # 聚合接口网页
+104.18.2.115 openrouter.ai                          # 聚合接口网页
